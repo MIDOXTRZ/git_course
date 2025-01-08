@@ -10,7 +10,7 @@ function App() {
             </head>
             <body>
                 <h1>Bienvenue sur ma page</h1>
-                <p>Ceci est un exemple de page avec JSX.</p>
+                <p>Voila un exemple de page by jsx.</p>
             </body>
         </html>
     );
