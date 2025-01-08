@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple JavaScript</title>
+</head>
+
+<body>
+    <h1>Bienvenue sur ma page</h1>
+    <p id="message">Cliquez sur le bouton pour changer ce texte.</p>
+    <button onclick="changeText()">Changer le texte</button>
+
+    <script>
+        // Fonction JavaScript pour changer le texte du paragraphe
+        function changeText() {
+            const messageElement = document.getElementById('message');
+            messageElement.textContent = "Le texte a été modifié avec JavaScript !";
+        }
+    </script>
+</body>
+
+</html
