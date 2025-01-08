@@ -7,6 +7,7 @@ mylist = [
     "Lamiae",
     "Sanae",
     "Jihad",
+    "no3man"
 ]
 girls = []
 boys = []
